@@ -30,23 +30,23 @@
                 <form action="insert.php" method="POST">
                     <div class="form-group">
                         <label for="name">Sur Name</label>
-                        <input type="text" class="form-control" name="surname" required>
+                        <input type="text" class="form-control" name="surname" >
                     </div>
                     <div class="form-group">
                         <label for="name">First Name</label>
-                        <input type="text" class="form-control" name="fname" required>
+                        <input type="text" class="form-control" name="fname" >
                     </div>
                     <div class="form-group">
                         <label for="name">Last Name</label>
-                        <input type="text" class="form-control" name="lastname" required>
+                        <input type="text" class="form-control" name="lastname" >
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" name="email" required>
+                        <input type="email" class="form-control" name="email" >
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" class="form-control" name="phone" required>
+                        <input type="tel" class="form-control" name="phone" >
                     </div>
                     <div class="form-group">
                         <label for="class">Class</label>
@@ -64,7 +64,7 @@
                             <option>SS 3</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Apply Now</button>
+                    <button type="submit" name="submit" class="btn btn-primary btn-block">Apply Now</button>
                     
                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></script>
